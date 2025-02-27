@@ -36,8 +36,6 @@ npm install tly-api
     const tly = new TlyClient('YOUR_API_TOKEN');
     ```
 
-````
-
 3. **Use the Methods**: You can now call any of the available methods (short link creation, pixel management, tag management, etc.) on the `tly` instance.
 
 ## API Reference
@@ -223,4 +221,7 @@ runExample();
 ## License
 
 This package is licensed under the MIT License.
-````
+
+```
+
+```
