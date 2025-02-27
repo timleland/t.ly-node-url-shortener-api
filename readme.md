@@ -221,7 +221,3 @@ runExample();
 ## License
 
 This package is licensed under the MIT License.
-
-```
-
-```
