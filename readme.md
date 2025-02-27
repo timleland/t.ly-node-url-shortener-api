@@ -1,6 +1,6 @@
-# T.ly API Client
+# T.LY API Client
 
-A Node.js client for the [T.ly URL Shortener](https://t.ly/) API. This package provides convenient methods to manage short links, tags, and pixels through T.ly's API.
+A Node.js client for the [T.LY URL Shortener](https://t.ly/) API. This package provides convenient methods to manage short links, tags, and pixels through T.LY's API.
 
 ## Table of Contents
 
@@ -25,14 +25,14 @@ npm install tly-api
 
 ## Getting Started
 
-1. **Obtain an API Token**: Sign up or log in to [T.ly](https://t.ly/settings#/api) and retrieve your API token from the T.ly dashboard.
+1. **Obtain an API Token**: Sign up or log in to [T.LY](https://t.ly/settings#/api) and retrieve your API token from the T.LY dashboard.
 
 2. **Initialize the Client**:
 
     ```js
     const TlyClient = require('tly-api');
 
-    // Replace 'YOUR_API_TOKEN' with your actual T.ly API token.
+    // Replace 'YOUR_API_TOKEN' with your actual T.LY API token.
     const tly = new TlyClient('YOUR_API_TOKEN');
     ```
 
@@ -196,7 +196,7 @@ Below is a simple usage example demonstrating how to create and retrieve a short
 ```js
 const TlyClient = require('tly-api');
 
-// Replace 'YOUR_API_TOKEN' with your actual T.ly API token.
+// Replace 'YOUR_API_TOKEN' with your actual T.LY API token.
 const tly = new TlyClient('YOUR_API_TOKEN');
 
 async function runExample() {
